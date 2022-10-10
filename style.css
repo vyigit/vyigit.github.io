@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+:root {
+    --red: #DD5353;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #393E46;
+    width: 100%;
+    height: auto;
+}
+
+.logo {
+    width: 120px;
+    cursor: pointer;
+}
+
+.logo-name {
+    position: absolute;
+    cursor: pointer;
+}
+
+li,
+a,
+button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+
+}
+
+.nav__links {
+    list-style: none;
+
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+
+}
+
+.nav__links li:hover {
+    width: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.356), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    transition: all 0.3s ease 0s;
+    color: var(--red);
+
+
+}
+
+button {
+    padding: 9px 25px;
+    background-color: var(--red);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: #B73E3E;
+}
+
+.Product-showroom {
+    gap: 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.Product-showroom div {
+    width: 500px;
+    height: 500px;
+    padding: 10px;
+}
+
+.Product-showroom img {
+    width: 75%;
+}
+
+.Product-showroom img:hover {
+    cursor: pointer;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.356), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+
+}
+
+
+h5 span,
+* {
+    color: #edf0f1;
+    text-align: center;
+    font-family: "Montserrat";
+    text-decoration: none;
+}
+
+.Product-showroom h5,
+span,
+p {
+    padding-top: 10px;
+}
+
+.Product-showroom div *:hover {
+    cursor: pointer;
+    text-decoration: underline;
+
+
+}
+
+.Product-showroom span,
+p {
+    font-size: small;
+    color: #cecece;
+
+}
+
+.red {
+    color: rgb(255, 79, 79);
+}
+
+.container {
+    width: 25%;
+    height: 500px;
+    position: relative;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    background-color: #cacaca;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+
+}
+
+.contact-link h3,
+h4 {
+    color: #393E46;
+    padding-bottom: 20px;
+}
+
+.contact-link h4 {
+    color: rgb(71, 173, 177);
+}
+
+.container * {
+    padding-top: 5px;
+}
+
+.contact-link input {
+    text-align: left;
+    padding-left: 10px;
+    width: 18rem;
+    height: 35px;
+    padding-left: 10px;
+    border-style: groove;
+    border-color: rgb(138, 250, 250);
+    color: #000000;
+
+}
+
+.contact-link textarea {
+    text-align: left;
+    padding-left: 10px;
+    width: 18rem;
+    height: 100px;
+    color: #000000;
+}
+
+.contact-link textarea::placeholder {
+    color: #acacac;
+    text-align: left;
+
+}
+
+.contact-link input::placeholder {
+    color: #acacac;
+    text-align: left;
+
+
+    position: fixed;
+}
+
+.contact-link fieldset {
+    border-style: none;
+}
+
+.contact-link button {
+    font-size: medium;
+    width: 200px;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+.contact-link .copyright,
+.vyigit {
+    padding-top: 10px;
+    font-size: small;
+    color: #393E46;
+}
+
+.contact-link .copyright .vyigit {
+    text-decoration: underline;
+    font-size: small;
+    color: #054055;
+}
+
+/* Footer Content */
+
+.footer {
+    width: 100%;
+    height: 150px;
+    background-color: black;
+    bottom: 0px;
+    margin-top: 100px;
+}
+
+.social-icon {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding-top: 10px;
+}
+
+.social-icon a {
+    padding: 10px;
+    font-size: 40px;
+
+}
+
+.social-icon i:hover {
+    color: var(--red);
+}
+
+.quick-links {
+    padding-top: 20px;
+}
+
+.quick-links ul {
+    display: flex;
+    justify-content: center;
+}
+
+.quick-items {
+    padding: 0 20px 0 10px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.quick-items a:hover {
+    color: var(--red);
+}
+
+/* Help.html Sayfası */
+
+#get-help {
+    width: 100%;
+    height: 80vh;
+}
+
+.get-help h2 {
+    font-size: 2rem;
+    margin: 3rem;
+}
+
+.get-help input {
+    width: 70vh;
+    height: 6vh;
+    border-radius: 10px;
+    border: 1px solid #acacac;
+    text-align: left;
+    margin-bottom: 6rem;
+    padding-left: 10px;
+    color: #000000;
+    background-color: #DD5353;
+}
+
+.get-help input::placeholder {
+    color: aliceblue;
+    font-size: 1rem;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.get-help input:focus {
+    color: #cecece;
+    background-color: #DD5353
+}
+
+.get-help i {
+    position: absolute;
+    margin: 20px 20px 0 -40px;
+}
+
+.get-help i:hover {
+    cursor: pointer;
+}
+
+.get-help hr {
+    margin-top: 100px;
+    width: 100%;
+}
+
+.contact-help h2 {
+    text-align: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.help-kapsa {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.help-kapsa .help-menu {
+    width: min-content;
+}
+
+.help-menu i {
+    font-size: 5rem;
+    width: 10rem;
+    height: auto;
+}
+
+.help-menu i:hover {
+    cursor: pointer;
+}
+
+.help-menu span {
+    font-size: 1rem;
+}
+
+.help-kapsa i {
+    font-size: 5rem;
+    margin: 3rem;
+    padding-bottom: 1rem;
+}
+
+hr {
+    margin: auto;
+    width: 60%;
+    text-align: center;
+    height: 2px;
+    border-width: 0;
+    background-color: #cecbcb;
+}
+
+section img {
+    margin-top: 5rem;
+}
+
+section h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #668fce;
+    font-size: 2rem;
+    font-style: italic;
+    font-variant: small-caps;
+}
